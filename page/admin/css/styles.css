@@ -9,7 +9,7 @@ p {
   color: #777; }
 
 a, a:hover, a:focus {
-  color: #30a5ff; }
+  color: #ffb53e; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #444444; }
@@ -102,7 +102,7 @@ input.form-control {
   background: rgba(255, 255, 255, 0.05); }
 
 .icon-bar {
-  background: #fff; }
+  background: #ffb53e; }
 
 .dropdown {
   background: rgba(255, 255, 255, 0.1);
