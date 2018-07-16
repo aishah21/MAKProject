@@ -13,7 +13,12 @@
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
-
+<style type="text/css">
+  
+  .form-control:hover{
+border: 1px solid #ffa500
+  }
+</style>
   
 </head>
 
@@ -131,35 +136,18 @@
   </div>
 </div>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch Modal
-</button>
- 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="file-loading">
-          <input id="input-b9" name="input-b9[]" multiple type="file"'>
-        </div>
-        <div id="kartik-file-errors"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" title="Your custom upload logic">Save</button>
-      </div>
+
+  <label class="col-md-4 control-label">العنون</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="file_upload" placeholder="" class="form-control" type="file">
     </div>
   </div>
 </div>
+
  
+
  
 <script>
 $(document).on('ready', function() {
