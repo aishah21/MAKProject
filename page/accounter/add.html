@@ -55,8 +55,8 @@
 		</form>
 		<ul class="nav menu">
 			<li><a href="agree.html"><em class="fa fa-bar-chart">&nbsp;</em>الحالات</a></li>
-			<li><a href="add.html"><em class="fa fa-clone">&nbsp;</em> ااظافة حالة </a></li>
-			<li><a href="view.html"><em class="fa fa-clone">&nbsp;</em> االجدولة </a></li>
+			<li><a href="add.html"><em class="fa fa-clone">&nbsp;</em> اظافة حالة </a></li>
+			<li><a href="view.html"><em class="fa fa-clone">&nbsp;</em> الجدولة </a></li>
 			<li><a href="login.html"><em class="fa fa-power-off">&nbsp;</em> الخروج</a></li>
 		</ul>
 	</div><!--/.sidebar-->
@@ -69,36 +69,228 @@
 				<li><a href="#">
 					<em class="fa fa-home"></em>
 				</a></li>
-				<li class="active">Charts</li>
+				<li class="active">اظافة </li>
 			</ol>
 		</div><!--/.row-->
-		<table style="width:100%">
-  <tr>
-    <th>رقم الملف </th>
-    <th>االمستفيد </th> 
-    <th>رقم الهوية </th>
-    <th>الجنسية </th>
-    <th>الحالة </th> 
-    <th>عدد الافراد</th>
-    <th>المندوب</th>
-    <th>الحي</th> 
-    <th>القيمة</th>
-    <th>االتوقيع  </th>
-  </tr>
-  <tr>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-      <td>-</td>
-    <td>-</td>
-    <td>-</td>
-      <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  
-</table>
+		<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
 
-</body>
-</html>
+<!-- Form Name -->
+<legend>بيانات الأسرة </legend>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">الاسم الاول</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label"> اسم الأب </label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >اللقب</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label"> رقم الهوية </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-tag"></i></span>
+  <input name="phone" placeholder="1234567890" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label"> تاريخ اصدارها </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-tag"></i></span>
+  <input name="phone" placeholder="1234567890" class="form-control" type="date">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label"> مصدر الهوية </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-tag"></i></span>
+  <input name="phone" placeholder="مكة" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label"> الموهل العلمي </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-education"></i></span>
+  <input name="phone" placeholder="" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label"> تاريخ الميلاد </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="
+glyphicon glyphicon-dashboard"></i></span>
+  <input name="phone" placeholder="1234567890" class="form-control" type="date">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">رقم الجوال</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="+966 555555555" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+      
+<div class="form-group">
+  <label class="col-md-4 control-label">العنون</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+  <label class="col-md-4 control-label">نوع الدعم</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="" class="form-control selectpicker" >
+      <option>سلة غذائية</option>
+      <option>سلة عينية</option>
+      <option >سداد فاتورة كهرباء</option>
+      <option >ايجارات</option>
+      <option >كفالة يتيم</option>
+      <option >علاج</option>
+      <option >سداد دين</option>
+      <option >أخرى</option>
+      
+    </select>
+  </div>
+</div>
+</div>
+
+
+<!-- radio checks -->
+ <div class="form-group">
+                        <label class="col-md-4 control-label">الجنس</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="yes" /> ذكر
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="no" /> أنثى
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- Text area -->
+  
+<div class="form-group">
+  <label class="col-md-4 control-label"> وصف الحالة</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder=""></textarea>
+  </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label"> اسم البنك </label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+  <input  name="first_name" placeholder="" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">الايبان  </label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+  <input  name="first_name" placeholder="SA123456789123456789123" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- file input
+
+  <label class="col-md-4 control-label">العنون</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="file_upload" placeholder="" class="form-control" type="file">
+    </div>
+  </div>
+  -->
+  <!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submet" class="btn btn-warning" >تم <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+
+ 
+
+ 
+
+</fieldset>
+</form>
